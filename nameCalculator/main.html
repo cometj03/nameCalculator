@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>☆이름 궁합 계산기♡</title>
+    <style>
+        #btnCal {
+            height: 20pt;
+            width: 130pt;
+            margin-top: 10pt;
+        }
+        div {
+            margin-top: 5pt;
+            margin-bottom: 5pt;
+        }
+    </style>
+</head>
+<body onload="document.getElementById('name1').focus()">
+    <script src="nameCal.js"></script>
+    <div id="main">두 사람의 이름을 하나씩 입력해주세요
+    <div>
+    <input type="text" id="name1"><br>
+    <input type="text" id="name2"><br>
+    <button onclick="btnClick()" id="btnCal">계산하기!</button>
+    </div></div>
+    
+</body>
+</html>
