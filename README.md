@@ -1,2 +1,2 @@
-# nameCalculator
-https://xxctrlzxx.github.io/nameCalculator/index.html
+# NameCalculator
+https://cometj03.github.io/nameCalculator/
